@@ -1,0 +1,271 @@
+
+#home{
+    background-color: black;
+}
+
+#home .row{
+    padding: 150px;
+    max-width: 90%;
+    height: auto;
+    font-family: font1;
+    font-size: 30px;
+}
+
+.photo{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#home .container-fluid .row .item-box .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: rgb(224, 46, 46);
+    opacity: 0.75
+}
+
+#home .container-fluid .row .item-box .item.social>a:hover {
+    opacity: 0.9
+}
+.home-heading{
+    font-family: font1;
+    margin-bottom: 20px;
+}
+
+.home-paragraph{
+    margin-bottom: 60px;
+}
+#home .container-fluid .row .item-box .photo{
+    padding: 30px;
+    align-items: center;
+}
+#home .container-fluid .row .item-box .photo{
+    margin-bottom: 40px;
+}
+
+#whoiam{
+    background-color: #4b4b4b;
+}
+#whoiam .info{
+    max-width: 60%;
+    height: auto;
+    font-family: font1;
+    font-size: 30px;
+    padding: 60px;
+    padding-bottom: 100px;   
+}
+
+#whoiam .paragraph{
+    font-family: font1;
+    font-size: 40px;
+    margin-top: 60px;   
+}
+
+#education{
+    padding: 30px 70px;
+
+}
+
+#education .heading{
+    margin-bottom: 60px;;
+}
+
+#education .container-fluid .row .item-box{
+    
+    padding: 30px;
+    font-size: 20px;
+}
+
+#education .container-fluid .row .item-box .Image{
+    margin-bottom: 50px;;
+}
+
+#skills{
+    background-color: #eaeaea;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+
+#skills .heading{
+    margin-bottom: 60px;
+
+}
+
+#skills .para{
+    font-size: 30px;
+    padding-left: 40px;
+    width : 80%;
+
+}
+
+#awards{
+    padding: 40px;
+    padding-bottom: 100px;
+}
+
+#awards .heading{
+    margin-bottom: 90px;
+}
+
+#awards .row{
+    width: 100%;
+}
+
+#awards .container-fluid .row .item-box{
+    
+    padding: 30px;
+    font-size: 20px;
+}
+
+#awards .container-fluid .row .item-box .Image{
+    margin-bottom: 30px;;
+}
+#projects{
+    background-image: url("../assets/codeback.jpg");
+
+    padding: 40px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+
+}
+#projects .para .heading{
+    margin-bottom: 60px;
+}
+
+#contactus{
+    background-color: black;
+    padding: 40px;
+    padding-bottom: 180px;
+}
+
+#contactus .heading{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.contact-para{
+    background-color: black;
+    padding-left: 800px;
+}
+
+.contact-para .contact-info{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    
+    
+    #home .row{
+        padding: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        max-width: 100%;
+        height: auto;
+        font-family: font1;
+        font-size: 30px;
+    }
+
+    .home-heading{
+        font-family: font1;
+        margin-bottom: 20px;
+    }
+    
+    .home-paragraph{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    #home .container-fluid .row .item-box .photo{
+        padding: 30px;
+        align-items: center;
+    }
+    #home .container-fluid .row .item-box .photo{
+        margin-bottom: 40px;
+    }
+    
+    
+    #whoiam .info{
+        max-width: 100%;
+        height: auto;
+        font-family: font1;
+        font-size: 12px;
+        padding: 20px;
+        padding-bottom: 100px;   
+    }
+    
+    #whoiam .paragraph{
+        font-family: font1;
+        font-size: 28px;
+        margin-top: 60px;   
+    }
+
+    #education{
+        padding: 30px 30px;
+    
+    }
+    
+    #education .heading{
+        margin-bottom: 60px;;
+    }
+    
+    #education .container-fluid .row .item-box{
+        
+        padding: 30px;
+        font-size: 15px;
+    }
+    
+    #education .container-fluid .row .item-box .Image{
+        margin-bottom: 50px;;
+    }
+
+    #skills{
+        background-color: #eaeaea;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+    
+    #skills .heading{
+        margin-bottom: 30px;
+    
+    }
+    
+    #skills .para{
+        font-size: 20px;
+        padding-left: 10px;
+        max-width : 90%;
+    
+    }
+
+    #contactus{
+        background-color: black;
+        padding: 20px;
+        padding-bottom: 150px;
+    }
+    
+    #contactus .heading{
+        font-size: 30px;
+        color: white;
+        margin-bottom: 120px;
+    
+    }
+    
+    .contact-para{
+        background-color: black;
+        padding-left: 10px;
+    }
+    
+    .contact-para .contact-info{
+        padding-bottom: 15px;
+    }
+}
